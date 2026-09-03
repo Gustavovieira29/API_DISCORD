@@ -22,4 +22,3 @@ jobs:
 
       - name: Rodar os testes unitarios
         run: node --test
-'@ | Out-File -FilePath ".github\workflows\tests.yml" -Encoding utf8
