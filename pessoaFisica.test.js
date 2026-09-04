@@ -53,7 +53,7 @@ test('deve aceitar um cadastro válido', () => {
     nome: 'Ana Maria Souza',
     cpf: '529.982.247-25',
     email: 'ana.maria@email.com',
-    data_nascimento: '1998-03-14',345
+    data_nascimento: '1998-03-14',
   };
 
   assert.deepStrictEqual(validar(pessoa), []);
