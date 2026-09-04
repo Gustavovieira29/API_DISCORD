@@ -42,7 +42,7 @@ test('deve impedir CNH para menor de 18 anos', () => {
     cpf: '529.982.247-25',
     email: 'ana@email.com',
     data_nascimento: '2010-03-14',
-    possui_cnh: true,
+    possui_cnh: false,
   });
 
   assert.ok(erros.includes('possui_cnh: so a partir de 18 anos'));
