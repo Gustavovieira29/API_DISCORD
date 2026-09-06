@@ -52,7 +52,7 @@ test('deve aceitar um cadastro válido', () => {
   const pessoa = {
     nome: 'Ana Maria Souza',
     cpf: '529.982.247-25',
-    email: 'ana.maria@email.com',
+    email: 'ana.maria@email.com',7
     data_nascimento: '1998-03-14',
   };
 
